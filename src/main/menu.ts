@@ -225,7 +225,7 @@ export default class MenuBuilder {
                 },
                 {
                   label: 'Toggle &Full Screen',
-                  accelerator: 'F11',
+                  accelerator: 'CommandOrControl+\\',
                   click: () => {
                     this.mainWindow.setFullScreen(
                       !this.mainWindow.isFullScreen()
@@ -243,7 +243,7 @@ export default class MenuBuilder {
             : [
                 {
                   label: 'Toggle &Full Screen',
-                  accelerator: 'F11',
+                  accelerator: 'CommandOrControl+\\',
                   click: () => {
                     this.mainWindow.setFullScreen(
                       !this.mainWindow.isFullScreen()
